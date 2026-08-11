@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drosophila Phylogeny Explorer</title>
+<link rel="stylesheet" href="https://unpkg.com/tippy.js@6/dist/tippy.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Serif:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <aside class="sidebar">
+    <header class="sidebar-header">
+      <h1>Phylogeny Explorer</h1>
+      <p class="subtitle">Extended data from Tarnopol et al. "Title"</p>
+    </header>
+
+    <section class="control-group">
+      <h2>Base tree</h2>
+      <label class="radio-row">
+        <input type="radio" name="tree_variant" value="plain" checked>
+        <span>Plain</span>
+      </label>
+      <label class="radio-row">
+        <input type="radio" name="tree_variant" value="cafe_ppo1">
+        <span>CAFE5: PPO1 copy number</span>
+      </label>
+      <label class="radio-row">
+        <input type="radio" name="tree_variant" value="cafe_ppo234">
+        <span>CAFE5: PPO2/3/4 copy number</span>
+      </label>
+            <label class="radio-row">
+        <input type="radio" name="tree_variant" value="asr">
+        <span>cdtB ASR</span>
+      </label>
+    </section>
+
+    <section class="control-group">
+      <h2>Labels</h2>
+      <label class="check-row">
+        <input type="checkbox" id="show_tip_labels" checked>
+        <span>Tip labels</span>
+      </label>
+      <label class="check-row">
+        <input type="checkbox" id="show_clade_labels" checked>
+        <span>Clade / taxonomy labels</span>
+      </label>
+      <label class="check-row">
+        <input type="checkbox" id="show_bootstrap">
+        <span>Bootstrap support values</span>
+      </label>
+      <label class="check-row">
+        <input type="checkbox" id="show_scale_bar" checked>
+        <span>Time scale (mya)</span>
+      </label>
+    </section>
+
+    <section class="control-group">
+      <h2>Characters</h2>
+      <label class="check-row"><input type="checkbox" class="ring-toggle" value="states" checked><span>Defense mechanism</span></label>
+      <label class="check-row"><input type="checkbox" class="ring-toggle" value="ppo1" checked><span>PPO1</span></label>
+      <label class="check-row"><input type="checkbox" class="ring-toggle" value="ppo2" checked><span>PPO2</span></label>
+      <label class="check-row"><input type="checkbox" class="ring-toggle" value="ppo3" checked><span>PPO3</span></label>
+      <label class="check-row"><input type="checkbox" class="ring-toggle" value="ppo4" checked><span>PPO4</span></label>
+      <label class="check-row"><input type="checkbox" class="ring-toggle" value="cdtb" checked><span>cdtb</span></label>
+    </section>
+
+    <section class="control-group">
+      <label class="check-row">
+        <input type="checkbox" id="show_hover" checked>
+        <span>Enable tip hover tooltips</span>
+      </label>
+    </section>
+
+    <section class="control-group" id="legend-panel">
+      <h2>Key</h2>
+      <div id="legend-content"></div>
+    </section>
+
+    <footer class="sidebar-footer">
+      <span id="active-count-badge">6 of 6 characters shown</span>
+    </footer>
+  </aside>
+
+  <main class="viewport">
+    <div class="tree-scroll">
+      <div class="tree-stack" id="tree-stack"></div>
+    </div>
+  </main>
+
+</div>
+
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script src="script.js"></script>
+</body>
+</html>
