@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1008.00pt' height='6081.12pt' viewBox='0 0 1008.00 6081.12'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHwxMDA4LjAwfDAuMDB8NjA4MS4xMg=='>
+    <rect x='0.00' y='0.00' width='1008.00' height='6081.12' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwxMDA4LjAwfDAuMDB8NjA4MS4xMg==)'>
+<rect x='0.00' y='0.00' width='1008.00' height='6081.12' style='stroke-width: 0.75; stroke: none;' />
+<rect x='0.00' y='0.00' width='1008.00' height='6081.12' style='stroke-width: 0.75; stroke: none;' />
+<circle cx='544.47' cy='4053.60' r='1.42' style='stroke-width: 0.71; stroke: #FFFFFF;' />
+<circle cx='544.47' cy='4154.40' r='1.42' style='stroke-width: 0.71; stroke: #FFFFFF;' />
+<circle cx='544.47' cy='4298.40' r='1.42' style='stroke-width: 0.71; stroke: #FFFFFF;' />
+</g>
+</g>
+</svg>
