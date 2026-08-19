@@ -1,53 +1,65 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1008.00pt' height='6081.12pt' viewBox='0 0 1008.00 6081.12'>
-<g class='svglite'>
-<defs>
-  <style type='text/css'><![CDATA[
-    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
-      fill: none;
-      stroke: #000000;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke-miterlimit: 10.00;
-    }
-    .svglite text {
-      white-space: pre;
-    }
-    .svglite g.glyphgroup path {
-      fill: inherit;
-      stroke: none;
-    }
-  ]]></style>
-</defs>
-<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
-<defs>
-  <clipPath id='cpMC4wMHwxMDA4LjAwfDAuMDB8NjA4MS4xMg=='>
-    <rect x='0.00' y='0.00' width='1008.00' height='6081.12' />
-  </clipPath>
-</defs>
-<g clip-path='url(#cpMC4wMHwxMDA4LjAwfDAuMDB8NjA4MS4xMg==)'>
-<rect x='0.00' y='0.00' width='1008.00' height='6081.12' style='stroke-width: 0.75; stroke: none;' />
-<rect x='0.00' y='0.00' width='1008.00' height='6081.12' style='stroke-width: 0.75; stroke: none;' />
-<line x1='16.64' y1='5957.14' x2='294.87' y2='5957.14' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='16.64' y1='5971.31' x2='16.64' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='51.42' y1='5971.31' x2='51.42' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='86.20' y1='5971.31' x2='86.20' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='120.98' y1='5971.31' x2='120.98' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='155.76' y1='5971.31' x2='155.76' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='190.54' y1='5971.31' x2='190.54' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='225.32' y1='5971.31' x2='225.32' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='260.10' y1='5971.31' x2='260.10' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<line x1='294.87' y1='5971.31' x2='294.87' y2='5942.97' style='stroke-width: 0.85; stroke: #333333; stroke-linecap: butt;' />
-<text x='16.64' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='9.50px' lengthAdjust='spacingAndGlyphs'>80</text>
-<text x='51.42' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='9.50px' lengthAdjust='spacingAndGlyphs'>70</text>
-<text x='86.20' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='9.50px' lengthAdjust='spacingAndGlyphs'>60</text>
-<text x='120.98' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='9.50px' lengthAdjust='spacingAndGlyphs'>50</text>
-<text x='155.76' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='9.50px' lengthAdjust='spacingAndGlyphs'>40</text>
-<text x='190.54' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='9.50px' lengthAdjust='spacingAndGlyphs'>30</text>
-<text x='225.32' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='9.50px' lengthAdjust='spacingAndGlyphs'>20</text>
-<text x='260.10' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='9.50px' lengthAdjust='spacingAndGlyphs'>10</text>
-<text x='294.87' y='6004.47' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='4.75px' lengthAdjust='spacingAndGlyphs'>0</text>
-<text x='155.76' y='6057.61' text-anchor='middle' style='font-size: 8.54px;fill: #333333; font-family: "Arial";' textLength='77.81px' lengthAdjust='spacingAndGlyphs'>Millions of years ago</text>
-</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1008 6081.1">
+  <!-- Generator: Adobe Illustrator 30.1.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 136)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        fill: none;
+      }
+
+      .st3 {
+        fill: #333;
+        font-family: ArialMT, Arial;
+        font-size: 8.5px;
+        isolation: isolate;
+      }
+
+      .st1 {
+        stroke-width: 1.5px;
+      }
+
+      .st1, .st2 {
+        stroke: #333;
+        stroke-linejoin: round;
+      }
+
+      .st2 {
+        stroke-width: .9px;
+      }
+
+      .st4 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="st0" width="1008" height="6081.1"/>
+    </clipPath>
+  </defs>
+  <rect class="st0" width="1008" height="6081.1"/>
+  <g class="st4">
+    <g>
+      <rect class="st0" width="1008" height="6081.1"/>
+      <rect class="st0" width="1008" height="6081.1"/>
+      <line class="st1" x1="16.6" y1="5927.1" x2="294.9" y2="5927.1"/>
+      <line class="st1" x1="16.6" y1="5941.3" x2="16.6" y2="5913"/>
+      <path class="st2" d="M51.4,5913"/>
+      <path class="st2" d="M51.4,5941.3"/>
+      <line class="st1" x1="86.2" y1="5941.3" x2="86.2" y2="5913"/>
+      <path class="st2" d="M121,5913"/>
+      <path class="st2" d="M121,5941.3"/>
+      <line class="st1" x1="155.8" y1="5941.3" x2="155.8" y2="5913"/>
+      <path class="st2" d="M190.5,5913"/>
+      <path class="st2" d="M190.5,5941.3"/>
+      <line class="st1" x1="225.3" y1="5941.3" x2="225.3" y2="5913"/>
+      <path class="st2" d="M260.1,5913"/>
+      <path class="st2" d="M260.1,5941.3"/>
+      <line class="st1" x1="294.9" y1="5941.3" x2="294.9" y2="5913"/>
+      <text class="st3" transform="translate(11.9 5954.5)"><tspan x="0" y="0">80</tspan></text>
+      <text class="st3" transform="translate(81.5 5954.5)"><tspan x="0" y="0">60</tspan></text>
+      <text class="st3" transform="translate(151 5954.5)"><tspan x="0" y="0">40</tspan></text>
+      <text class="st3" transform="translate(220.6 5954.5)"><tspan x="0" y="0">20</tspan></text>
+      <text class="st3" transform="translate(292.5 5954.5)"><tspan x="0" y="0">0</tspan></text>
+      <text class="st3" transform="translate(116.8 5977.6)"><tspan x="0" y="0">Millions of years ago</tspan></text>
+    </g>
+  </g>
 </svg>

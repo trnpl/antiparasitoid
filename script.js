@@ -1,9 +1,15 @@
 // =============================================================================
 // Drosophila Phylogeny Explorer -- static site logic
 //
-// App built using Claude Sonnet 5, last modified by RLT 260811
+// Mirrors what app.R did, but as plain JS: every layer is a pre-rendered SVG
+// (from build_tree_layers.R) stacked with CSS, toggled by simple show/hide.
+// No server, no reactive framework -- toggling is instant and there's no
+// render-timing race to manage, unlike the Shiny version.
 // =============================================================================
 
+// Fixed back-to-front stacking order. All images are created once at load
+// time in this order, then just shown/hidden -- so DOM order (which
+// controls visual stacking) never needs to be recomputed.
 const TREE_VARIANTS = {
   plain:        "layers/tree_plain.svg",
   asr:          "layers/tree_asr_branches.svg",
@@ -133,7 +139,8 @@ function updateActiveCountBadge() {
 // ---------------------------------------------------------------------------
 // Hover tooltip grid -- built once from tip_coordinates.json, positioned
 // with simple CSS percentages. Tippy is attached immediately after each
-// div is created.
+// div is created, so there's no render-timing race like the Shiny version
+// had (everything here is synchronous, plain JS).
 // ---------------------------------------------------------------------------
 
 function buildHoverGrid(coords) {
@@ -188,6 +195,50 @@ function buildHoverGrid(coords) {
   treeStack.appendChild(grid);
 }
 
+// Click-to-pin: hovering shows a tooltip normally; clicking a cell keeps
+// it open until the same cell is clicked again or the page is clicked
+// elsewhere. Only one tooltip stays pinned at a time, and while one is
+// pinned, hover is disabled on every other cell so a second bubble can't
+// pop up alongside it.
+let pinnedInstance = null;
+const allTippyInstances = [];
+
+function pinTooltip(instance) {
+  if (pinnedInstance && pinnedInstance !== instance) {
+    unpinTooltip(pinnedInstance);
+  }
+  instance.setProps({ trigger: "manual", hideOnClick: false });
+  instance.show();
+  pinnedInstance = instance;
+
+  allTippyInstances.forEach(inst => {
+    if (inst !== instance) {
+      inst.setProps({ trigger: "manual" });
+      inst.hide();
+    }
+  });
+}
+
+function unpinTooltip(instance) {
+  instance.setProps({ trigger: "mouseenter focus", hideOnClick: true });
+  instance.hide();
+  if (pinnedInstance === instance) pinnedInstance = null;
+
+  allTippyInstances.forEach(inst => {
+    if (inst !== instance) {
+      inst.setProps({ trigger: "mouseenter focus" });
+    }
+  });
+}
+
+document.addEventListener("click", (e) => {
+  if (!pinnedInstance) return;
+  const popperEl = pinnedInstance.popper;
+  const referenceEl = pinnedInstance.reference;
+  if (popperEl.contains(e.target) || referenceEl.contains(e.target)) return; // click landed inside the tooltip or its own cell -- handled by the cell's own listener
+  unpinTooltip(pinnedInstance);
+});
+
 function addHoverCell(grid, xStartPct, yStartPct, widthPct, heightPct, tooltipHtml) {
   const cell = document.createElement("div");
   cell.className = "hover-cell";
@@ -197,10 +248,20 @@ function addHoverCell(grid, xStartPct, yStartPct, widthPct, heightPct, tooltipHt
   cell.style.height = heightPct + "%";
   grid.appendChild(cell);
 
-  tippy(cell, {
+  const instance = tippy(cell, {
     content: tooltipHtml,
     allowHTML: true,
     placement: "right"
+  });
+  allTippyInstances.push(instance);
+
+  cell.addEventListener("click", (e) => {
+    e.stopPropagation(); // don't let the document-level listener immediately unpin what this click just pinned
+    if (pinnedInstance === instance) {
+      unpinTooltip(instance);
+    } else {
+      pinTooltip(instance);
+    }
   });
 }
 
@@ -213,19 +274,28 @@ function addHoverCell(grid, xStartPct, yStartPct, widthPct, heightPct, tooltipHt
 let legendData = null;
 
 const RING_LABELS = {
-  states: "Defense mechanism",
+  states: "States (defense type)",
   ppo1: "PPO1 copy number",
   ppo2: "PPO2 copy number",
   ppo3: "PPO3 copy number",
   ppo4: "PPO4 copy number",
-  cdtb: "cdtB copy number"
+  cdtb: "cdtb_count"
 };
 
 function renderLegend() {
   const container = document.getElementById("legend-content");
   container.innerHTML = "";
   if (!legendData) return;
-  
+
+  // Tile rings: one legend block per currently-checked ring toggle.
+  document.querySelectorAll(".ring-toggle").forEach(cb => {
+    if (!cb.checked) return;
+    const key = cb.value;
+    const entry = legendData[key];
+    if (!entry) return;
+    container.appendChild(buildLegendBlock(RING_LABELS[key] || key, entry, key));
+  });
+
   // QC legend is shared across PPO1-4/cdtb (not per-ring) -- show it once
   // if ANY of those rings is currently active, since that's when QC
   // markers could actually be visible on the tree.
@@ -238,15 +308,6 @@ function renderLegend() {
     container.appendChild(buildLegendBlock("QC", legendData.qc, "qc"));
   }
 
-  // Tile rings: one legend block per currently-checked ring toggle.
-  document.querySelectorAll(".ring-toggle").forEach(cb => {
-    if (!cb.checked) return;
-    const key = cb.value;
-    const entry = legendData[key];
-    if (!entry) return;
-    container.appendChild(buildLegendBlock(RING_LABELS[key] || key, entry, key));
-  });
-
   // ASR branch coloring: only relevant when that tree variant is selected.
   const selectedVariant = document.querySelector('input[name="tree_variant"]:checked').value;
   const variantLegendKey = {
@@ -256,8 +317,8 @@ function renderLegend() {
   }[selectedVariant];
   const variantLegendTitle = {
     asr: "ASR branch state",
-    cafe_ppo1: "PPO copy number (CAFE5)",
-    cafe_ppo234: "PPO copy number (CAFE5)"
+    cafe_ppo1: "PPO1 copy number (CAFE5)",
+    cafe_ppo234: "PPO2/3/4 copy number (CAFE5)"
   }[selectedVariant];
   // Icon key is separate from the data key: both CAFE5 variants share one
   // set of icon files (icons/cafe_ppo_copy_*.png / icons/cafe_ppo_copy.png)

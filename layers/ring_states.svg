@@ -7,13 +7,13 @@
         fill: none;
       }
 
-      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15 {
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16 {
         stroke: #000;
         stroke-miterlimit: 10;
         stroke-width: .4px;
       }
 
-      .st1, .st16 {
+      .st1, .st17 {
         fill: #ef8e49;
       }
 
@@ -22,39 +22,39 @@
       }
 
       .st3 {
-        fill: url(#linear-gradient1);
+        fill: url(#linear-gradient9);
       }
 
       .st4 {
-        fill: url(#linear-gradient2);
+        fill: url(#linear-gradient1);
       }
 
       .st5 {
-        fill: url(#linear-gradient5);
+        fill: url(#linear-gradient2);
       }
 
       .st6 {
-        fill: url(#linear-gradient7);
-      }
-
-      .st7 {
-        fill: url(#linear-gradient8);
-      }
-
-      .st8 {
-        fill: url(#linear-gradient4);
-      }
-
-      .st9 {
-        fill: url(#linear-gradient3);
-      }
-
-      .st10 {
         fill: url(#linear-gradient6);
       }
 
+      .st7 {
+        fill: url(#linear-gradient4);
+      }
+
+      .st8 {
+        fill: url(#linear-gradient3);
+      }
+
+      .st9 {
+        fill: url(#linear-gradient8);
+      }
+
+      .st10 {
+        fill: url(#linear-gradient5);
+      }
+
       .st11 {
-        fill: url(#linear-gradient9);
+        fill: url(#linear-gradient7);
       }
 
       .st12 {
@@ -62,126 +62,161 @@
       }
 
       .st13 {
-        fill: url(#New_Gradient_Swatch_3);
-      }
-
-      .st14 {
         fill: #fff;
       }
 
-      .st15 {
+      .st14 {
         fill: #ffd070;
       }
 
-      .st17 {
+      .st18 {
         clip-path: url(#clippath);
+      }
+
+      .st15 {
+        fill: url(#linear-gradient11);
+      }
+
+      .st16 {
+        fill: url(#linear-gradient10);
       }
     </style>
     <clipPath id="clippath">
       <rect class="st0" width="1008" height="6081.1"/>
     </clipPath>
-    <linearGradient id="linear-gradient" x1="478.1" y1="1801.4" x2="468.2" y2="1784.2" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient" x1="478.1" y1="4282.6" x2="468.2" y2="4299.8" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset=".5" stop-color="#fff"/>
       <stop offset=".5" stop-color="#ffd070"/>
       <stop offset=".6" stop-color="#ffd070"/>
       <stop offset="1" stop-color="#ffd070"/>
     </linearGradient>
-    <linearGradient id="linear-gradient1" y1="1787" y2="1769.8" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient2" x1="478.1" y1="2420.6" x2="468.2" y2="2403.4" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient1" x1="478.1" y1="4297" x2="468.2" y2="4314.2" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#ffd070"/>
+      <stop offset=".6" stop-color="#ffd070"/>
+      <stop offset="1" stop-color="#ffd070"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="478.1" y1="3663.4" x2="468.2" y2="3680.6" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset=".5" stop-color="#fff"/>
       <stop offset=".5" stop-color="#ef8e49"/>
       <stop offset=".6" stop-color="#ef8e49"/>
       <stop offset="1" stop-color="#ef8e49"/>
     </linearGradient>
-    <linearGradient id="linear-gradient3" x1="478.1" y1="2996.6" x2="468.2" y2="2979.4" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient3" x1="478.1" y1="3087.4" x2="468.2" y2="3104.6" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset=".5" stop-color="#fff"/>
       <stop offset=".5" stop-color="#e76255"/>
       <stop offset=".6" stop-color="#e76255"/>
       <stop offset="1" stop-color="#e76255"/>
     </linearGradient>
-    <linearGradient id="linear-gradient4" x1="478.1" y1="4148.6" x2="468.2" y2="4131.4" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient4" x1="478.1" y1="1935.4" x2="468.2" y2="1952.6" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset=".5" stop-color="#fff"/>
       <stop offset=".5" stop-color="#e76255"/>
       <stop offset=".6" stop-color="#e76255"/>
       <stop offset="1" stop-color="#e76255"/>
     </linearGradient>
-    <linearGradient id="linear-gradient5" y1="4220.6" y2="4203.4" xlink:href="#linear-gradient4"/>
-    <linearGradient id="linear-gradient6" x1="478.1" y1="4335.8" x2="468.2" y2="4318.6" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient5" x1="478.1" y1="1863.4" x2="468.2" y2="1880.6" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#e76255"/>
+      <stop offset=".6" stop-color="#e76255"/>
+      <stop offset="1" stop-color="#e76255"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient6" x1="478.1" y1="1748.2" x2="468.2" y2="1765.4" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#ffd070"/>
       <stop offset=".5" stop-color="#ffd070"/>
       <stop offset=".5" stop-color="#e76255"/>
       <stop offset=".6" stop-color="#e76255"/>
       <stop offset="1" stop-color="#e76255"/>
     </linearGradient>
-    <linearGradient id="New_Gradient_Swatch_3" data-name="New Gradient Swatch 3" x1="478.1" y1="4379" x2="468.2" y2="4361.8" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient7" x1="478.1" y1="1705" x2="468.2" y2="1722.2" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset=".5" stop-color="#fff"/>
       <stop offset=".5" stop-color="#ef8e49"/>
       <stop offset=".6" stop-color="#ef8e49"/>
       <stop offset="1" stop-color="#ef8e49"/>
     </linearGradient>
-    <linearGradient id="linear-gradient7" x1="478.1" y1="4638.2" x2="468.2" y2="4621" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient8" x1="478.1" y1="1445.8" x2="468.2" y2="1463" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset=".5" stop-color="#fff"/>
       <stop offset=".5" stop-color="#e76255"/>
       <stop offset=".6" stop-color="#e76255"/>
       <stop offset="1" stop-color="#e76255"/>
     </linearGradient>
-    <linearGradient id="linear-gradient8" y1="4609.4" x2="468.2" y2="4592.2" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient9" x1="478.1" y1="4825.4" x2="468.2" y2="4808.2" gradientUnits="userSpaceOnUse">
+    <linearGradient id="linear-gradient9" x1="478.1" y1="1474.6" x2="468.2" y2="1491.8" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#ffd070"/>
+      <stop offset=".6" stop-color="#ffd070"/>
+      <stop offset="1" stop-color="#ffd070"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient10" x1="478.1" y1="1258.6" x2="468.2" y2="1275.8" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset=".5" stop-color="#fff"/>
       <stop offset=".5" stop-color="#ef8e49"/>
       <stop offset=".6" stop-color="#ef8e49"/>
       <stop offset="1" stop-color="#ef8e49"/>
     </linearGradient>
+    <linearGradient id="linear-gradient11" x1="478.1" y1="1892.2" x2="468.2" y2="1909.4" gradientTransform="translate(0 6084) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".5" stop-color="#fff"/>
+      <stop offset=".5" stop-color="#e76255"/>
+      <stop offset=".6" stop-color="#e76255"/>
+      <stop offset="1" stop-color="#e76255"/>
+    </linearGradient>
   </defs>
   <rect class="st0" width="1008" height="6081.1"/>
-  <g class="st17">
+  <g class="st18">
     <g>
       <rect class="st0" width="1008" height="6081.1"/>
       <rect class="st0" width="1008" height="6081.1"/>
-      <rect class="st14" x="463.2" y="1052.6" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="1383.8" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="1052.6" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="1383.8" width="19.8" height="11.5"/>
       <rect class="st2" x="463.2" y="1787" width="19.8" height="11.5"/>
-      <rect class="st3" x="463.2" y="1772.6" width="19.8" height="11.5"/>
-      <rect class="st15" x="463.2" y="1758.2" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="1859" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="2363" width="19.8" height="11.5"/>
-      <rect class="st4" x="463.2" y="2406.2" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="2809.4" width="19.8" height="11.5"/>
-      <rect class="st9" x="463.2" y="2982.2" width="19.8" height="11.5"/>
+      <rect class="st4" x="463.2" y="1772.6" width="19.8" height="11.5"/>
+      <rect class="st14" x="463.3" y="1758.2" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="1859" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="2363" width="19.8" height="11.5"/>
+      <rect class="st5" x="463.2" y="2406.2" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="2809.4" width="19.8" height="11.5"/>
+      <rect class="st8" x="463.2" y="2982.2" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="3299" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="3414.2" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="3414.2" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="4091" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="4019" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="4004.6" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="3975.8" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="3961.4" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="4076.6" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="4047.8" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="4047.8" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="4033.4" width="19.8" height="11.5"/>
-      <rect class="st8" x="463.2" y="4134.2" width="19.8" height="11.5"/>
-      <rect class="st5" x="463.2" y="4206.2" width="19.8" height="11.5"/>
+      <rect class="st7" x="463.2" y="4134.2" width="19.8" height="11.5"/>
+      <rect class="st10" x="463.2" y="4206.2" width="19.8" height="11.5"/>
       <rect class="st1" x="463.2" y="4220.6" width="19.8" height="11.5"/>
-      <rect class="st10" x="463.2" y="4321.4" width="19.8" height="11.5"/>
-      <rect class="st13" x="463.2" y="4364.6" width="19.8" height="11.5"/>
+      <rect class="st6" x="463.2" y="4321.4" width="19.8" height="11.5"/>
+      <rect class="st11" x="463.2" y="4364.6" width="19.8" height="11.5"/>
       <rect class="st1" x="463.2" y="4350.2" width="19.8" height="11.5"/>
       <rect class="st1" x="463.2" y="4436.6" width="19.8" height="11.5"/>
       <rect class="st1" x="463.2" y="4494.2" width="19.8" height="11.5"/>
       <rect class="st1" x="463.2" y="4479.8" width="19.8" height="11.5"/>
       <rect class="st1" x="463.2" y="4465.4" width="19.8" height="11.5"/>
       <rect class="st1" x="463.2" y="4451" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="4638.2" width="19.8" height="11.5"/>
-      <rect class="st6" x="463.2" y="4623.8" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="4638.2" width="19.8" height="11.5"/>
+      <rect class="st9" x="463.2" y="4623.8" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="4609.4" width="19.8" height="11.5"/>
-      <rect class="st7" x="463.2" y="4595" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="4695.8" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="4681.4" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="4667" width="19.8" height="11.5"/>
+      <rect class="st3" x="463.2" y="4595" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="4695.8" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="4681.4" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="4667" width="19.8" height="11.5"/>
       <rect class="st12" x="463.2" y="4753.4" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="4796.6" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="4839.8" width="19.8" height="11.5"/>
-      <rect class="st11" x="463.2" y="4811" width="19.8" height="11.5"/>
-      <rect class="st14" x="463.2" y="5099" width="19.8" height="11.5"/>
-      <polygon class="st16" points="463.5 2982.5 473 2988.1 463.5 2993.5 463.5 2982.5"/>
+      <rect class="st13" x="463.2" y="4796.6" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="4839.8" width="19.8" height="11.5"/>
+      <rect class="st16" x="463.2" y="4811" width="19.8" height="11.5"/>
+      <rect class="st13" x="463.2" y="5099" width="19.8" height="11.5"/>
+      <polygon class="st17" points="482.8 2982.4 472.9 2988.1 463.4 2982.4 482.8 2982.4"/>
+      <g>
+        <rect class="st15" x="463.3" y="4177.4" width="19.8" height="11.5"/>
+        <polygon class="st17" points="482.9 4177.6 473 4183.3 463.4 4177.6 482.9 4177.6"/>
+      </g>
     </g>
   </g>
+  <rect class="st12" x="463.2" y="3989.9" width="19.8" height="11.5"/>
+  <rect class="st12" x="463.2" y="4062.3" width="19.8" height="11.5"/>
+  <rect class="st0" x="22.6" y=".5" width="1008" height="6081.1"/>
+  <rect class="st13" x="464.1" y="2927.4" width="19.8" height="11.5"/>
+  <rect class="st13" x="463.3" y="1614.1" width="19.8" height="11.5"/>
+  <rect class="st13" x="463.2" y="3759.8" width="19.8" height="11.5"/>
 </svg>

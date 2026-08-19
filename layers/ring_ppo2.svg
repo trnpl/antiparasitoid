@@ -38,10 +38,10 @@
       }
     </style>
     <clipPath id="clippath">
-      <polyline class="st0" points="1008 0 1008 6081.1 0 6081.1 0 0"/>
+      <rect class="st0" width="1008" height="6081.1"/>
     </clipPath>
     <clipPath id="clippath-1">
-      <polyline class="st0" points="1252.9 -1.1 1252.9 6080.1 244.9 6080.1 244.9 -1.1"/>
+      <rect class="st0" x="244.9" y="-1.1" width="1008" height="6081.2"/>
     </clipPath>
   </defs>
   <g>
@@ -393,7 +393,7 @@
         <rect class="st6" x="510.8" y="4508.6" width="19.8" height="11.5"/>
         <rect class="st6" x="510.8" y="4652.6" width="19.8" height="11.5"/>
         <rect class="st6" x="510.8" y="4638.2" width="19.8" height="11.5"/>
-        <rect class="st6" x="510.8" y="4623.8" width="19.8" height="11.5"/>
+        <rect class="st2" x="510.8" y="4623.8" width="19.8" height="11.5"/>
         <rect class="st2" x="510.8" y="4609.4" width="19.8" height="11.5"/>
         <rect class="st6" x="510.8" y="4595" width="19.8" height="11.5"/>
         <rect class="st6" x="510.8" y="4710.2" width="19.8" height="11.5"/>
