@@ -1849,6 +1849,7 @@
       "tt_ppo4": "<b><i>Drosophila kikkawai<\/i><\/b><br>PPO4 copy number: 0<br>Annotation notes: Intact",
       "tt_cdtb": "<b><i>Drosophila kikkawai<\/i><\/b><br>cdtB copy number: 0<br>cdtB exon count: NA<br>Annotation notes: Intact",
       "tt_full": "<b><i>Drosophila kikkawai<\/i><\/b><br>Taxonomy: Drosophilidae > Drosophilinae > Drosophilini > Drosophilina > Drosophiliti > Drosophila > Sophophora > montium > kikkawai<br>Defense mechanism: NA<br>PPO1 copy number: 1<br>PPO2 copy number: 1<br>PPO3 copy number: 0<br>PPO4 copy number: 0<br>cdtB copy number: 0",
+      "val_states": "4",
       "val_ppo3": 0,
       "val_ppo4": 0,
       "val_cdtb": 0
@@ -2215,6 +2216,7 @@
       "tt_ppo4": "<b><i>Drosophila mauritiana<\/i><\/b><br>PPO4 copy number: 0<br>Annotation notes: Intact",
       "tt_cdtb": "<b><i>Drosophila mauritiana<\/i><\/b><br>cdtB copy number: 0<br>cdtB exon count: NA<br>Annotation notes: Intact",
       "tt_full": "<b><i>Drosophila mauritiana<\/i><\/b><br>Taxonomy: Drosophilidae > Drosophilinae > Drosophilini > Drosophilina > Drosophiliti > Drosophila > Sophophora > melanogaster > melanogaster<br>Defense mechanism: NA<br>PPO1 copy number: 1<br>PPO2 copy number: 1<br>PPO3 copy number: 1<br>PPO4 copy number: 0<br>cdtB copy number: 0",
+      "val_states": "1",
       "val_ppo3": 1,
       "val_ppo4": 0,
       "val_cdtb": 0
@@ -4263,6 +4265,7 @@
       "tt_ppo4": "<b><i>Drosophila suzukii<\/i><\/b><br>PPO4 copy number: 0<br>Annotation notes: Intact",
       "tt_cdtb": "<b><i>Drosophila suzukii<\/i><\/b><br>cdtB copy number: 0<br>cdtB exon count: NA<br>Annotation notes: Intact",
       "tt_full": "<b><i>Drosophila suzukii<\/i><\/b><br>Taxonomy: Drosophilidae > Drosophilinae > Drosophilini > Drosophilina > Drosophiliti > Drosophila > Sophophora > melanogaster > suzukii<br>Defense mechanism: NA<br>PPO1 copy number: 1<br>PPO2 copy number: 1<br>PPO3 copy number: 1<br>PPO4 copy number: 0<br>cdtB copy number: 0",
+      "val_states": "1,2,4",
       "val_ppo3": 1,
       "val_ppo4": 0,
       "val_cdtb": 0
@@ -4319,6 +4322,7 @@
       "tt_ppo4": "<b><i>Drosophila teissieri<\/i><\/b><br>PPO4 copy number: 0<br>Annotation notes: Intact",
       "tt_cdtb": "<b><i>Drosophila teissieri<\/i><\/b><br>cdtB copy number: 0<br>cdtB exon count: NA<br>Annotation notes: Intact",
       "tt_full": "<b><i>Drosophila teissieri<\/i><\/b><br>Taxonomy: Drosophilidae > Drosophilinae > Drosophilini > Drosophilina > Drosophiliti > Drosophila > Sophophora > melanogaster > melanogaster<br>Defense mechanism: NA<br>PPO1 copy number: 1<br>PPO2 copy number: 1<br>PPO3 copy number: 2<br>PPO4 copy number: 0<br>cdtB copy number: 0",
+      "val_states": "1",
       "val_ppo3": 2,
       "val_ppo4": 0,
       "val_cdtb": 0
@@ -4530,6 +4534,7 @@
       "tt_ppo4": "<b><i>Drosophila virilis<\/i><\/b><br>PPO4 copy number: 0<br>Annotation notes: Intact",
       "tt_cdtb": "<b><i>Drosophila virilis<\/i><\/b><br>cdtB copy number: 0<br>cdtB exon count: NA<br>Annotation notes: Intact",
       "tt_full": "<b><i>Drosophila virilis<\/i><\/b><br>Taxonomy: Drosophilidae > Drosophilinae > Drosophilini > Drosophilina > Drosophiliti > Drosophila > Drosophila > virilis > virilis<br>Defense mechanism: NA<br>PPO1 copy number: 1<br>PPO2 copy number: 1<br>PPO3 copy number: 0<br>PPO4 copy number: 0<br>cdtB copy number: 0",
+      "val_states": "4",
       "val_ppo3": 0,
       "val_ppo4": 0,
       "val_cdtb": 0
