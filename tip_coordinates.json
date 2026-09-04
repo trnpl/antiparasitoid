@@ -2280,7 +2280,7 @@
     {
       "label": "DROSOPHILA_MELANOGASTER",
       "y_pct": 67.1324,
-      "tt_states": "<b><i>Drosophila melanogaster<\/i><\/b><br>Defense type: Encapsulation and melanization<br>Source: <br>DOI: <br>Notes: ",
+      "tt_states": "<b><i>Drosophila melanogaster<\/i><\/b><br>Defense type: Encapsulation and melanization<br>Source: Schlenke et al. 2007, Kacsoh 2012 <br>DOI: https://doi.org/10.1371/journal.ppat.0030158; https://etd.library.emory.edu/concern/etds/k0698840f?locale=fr<br>Notes: ",
       "tt_ppo1": "<b><i>Drosophila melanogaster<\/i><\/b><br>PPO1 copy number: 1<br>Annotation notes: Intact",
       "tt_ppo2": "<b><i>Drosophila melanogaster<\/i><\/b><br>PPO2 copy number: 1<br>Annotation notes: Intact",
       "tt_ppo3": "<b><i>Drosophila melanogaster<\/i><\/b><br>PPO3 copy number: 1<br>Annotation notes: Intact",
