@@ -275,11 +275,11 @@ let legendData = null;
 
 const RING_LABELS = {
   states: "States (defense type)",
-  ppo1: "<i>PPO1</i> copy number",
-  ppo2: "<i>PPO2</i> copy number",
-  ppo3: "<i>PPO3</i> copy number",
-  ppo4: "<i>PPO4</i> copy number",
-  cdtb: "<i>cdtB</i> copy number"
+  ppo1: "PPO1 copy number",
+  ppo2: "PPO2 copy number",
+  ppo3: "PPO3 copy number",
+  ppo4: "PPO4 copy number",
+  cdtb: "cdtB copy number"
 };
 
 function renderLegend() {
@@ -305,7 +305,7 @@ function renderLegend() {
     return cb && cb.checked;
   });
   if (anyQcActive && legendData.qc) {
-    container.appendChild(buildLegendBlock("QC", legendData.qc, "qc"));
+    container.appendChild(buildLegendBlock("Data quality", legendData.qc, "qc"));
   }
 
   // ASR branch coloring: only relevant when that tree variant is selected.
