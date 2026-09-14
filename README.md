@@ -2,6 +2,8 @@
 
 This Github repository allows for browsing of anti-parasitoid defense mechanisms and their associated genes across 406 drosophilid and four outgroup species. Phylogeny-wide analyses, such as CAFE5 gene duplication histories and ancestral state reconstruction of HGT events, are also browsable here. 
 
+The web browser can be accessed here: https://trnpl.github.io/antiparasitoid/
+
 Please cite the following preprint: Tarnopol, R. L., Wang, R. L., Kim, B. Y., Whiteman, N.K. "Horizontal gene transfer rivals gene duplication as a source of anti-parasitoid immune innovation in the Drosophilidae" 
 
 Annotation and phylogenetic data for PPO and cdtB genes can be accessed here: 
