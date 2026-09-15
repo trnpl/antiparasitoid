@@ -1,4 +1,6 @@
-# Code to generate Figure 4 from Tarnopol et al. (2026) "Horizontal gene transfer rivals gene duplication as a source of anti-parasitoid immune innovation in the Drosophilidae"
+# README for code and input data for Figure 4
+
+This folder contains the code and inut data  to generate Figure 4 from Tarnopol et al. (2026) "Horizontal gene transfer rivals gene duplication as a source of anti-parasitoid immune innovation in the Drosophilidae"
 
 The pgls_input.csv file contains the following data: 
 
