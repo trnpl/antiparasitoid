@@ -4,7 +4,7 @@ This Github repository allows for browsing of anti-parasitoid defense mechanisms
 
 The web browser can be accessed here: https://trnpl.github.io/antiparasitoid/
 
-Please cite the following preprint: Tarnopol, R. L., Wang, R. L., Kim, B. Y., Whiteman, N.K. "Horizontal gene transfer rivals gene duplication as a source of anti-parasitoid immune innovation in the Drosophilidae" 
+Please cite the following preprint: Tarnopol, R. L., Wang, R. L., Kim, B. Y., Whiteman, N.K. "Horizontal gene transfer rivals gene duplication as a source of anti-parasitoid immune innovation in the Drosophilidae" bioRxiv (2026) https://doi.org/10.64898/2026.09.15.751804
 
 Annotation and phylogenetic data for PPO and cdtB genes can be accessed here: 
 
